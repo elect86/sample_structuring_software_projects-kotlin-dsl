@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/platforms" name="platforms">
+                <projects>
+                  <project path="$PROJECT_DIR$/platforms" />
+                  <project path="$PROJECT_DIR$/platforms/plugins-platform" />
+                  <project path="$PROJECT_DIR$/platforms/product-platform" />
+                  <project path="$PROJECT_DIR$/platforms/test-platform" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/android-application" />
+                  <project path="$PROJECT_DIR$/build-logic/commons" />
+                  <project path="$PROJECT_DIR$/build-logic/java-library" />
+                  <project path="$PROJECT_DIR$/build-logic/kotlin-library" />
+                  <project path="$PROJECT_DIR$/build-logic/report-aggregation" />
+                  <project path="$PROJECT_DIR$/build-logic/spring-boot-application" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/aggregation" name="aggregation">
+                <projects>
+                  <project path="$PROJECT_DIR$/aggregation" />
+                  <project path="$PROJECT_DIR$/aggregation/test-coverage" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/user-feature" name="user-feature">
+                <projects>
+                  <project path="$PROJECT_DIR$/user-feature" />
+                  <project path="$PROJECT_DIR$/user-feature/data" />
+                  <project path="$PROJECT_DIR$/user-feature/table" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/admin-feature" name="admin-feature">
+                <projects>
+                  <project path="$PROJECT_DIR$/admin-feature" />
+                  <project path="$PROJECT_DIR$/admin-feature/config" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/server-application" name="server-application">
+                <projects>
+                  <project path="$PROJECT_DIR$/server-application" />
+                  <project path="$PROJECT_DIR$/server-application/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/android-app" name="android-app">
+                <projects>
+                  <project path="$PROJECT_DIR$/android-app" />
+                  <project path="$PROJECT_DIR$/android-app/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/domain-model" name="domain-model">
+                <projects>
+                  <project path="$PROJECT_DIR$/domain-model" />
+                  <project path="$PROJECT_DIR$/domain-model/release" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/state" name="state">
+                <projects>
+                  <project path="$PROJECT_DIR$/state" />
+                  <project path="$PROJECT_DIR$/state/application-state" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="9" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/admin-feature" />
+            <option value="$PROJECT_DIR$/admin-feature/config" />
+            <option value="$PROJECT_DIR$/aggregation" />
+            <option value="$PROJECT_DIR$/aggregation/test-coverage" />
+            <option value="$PROJECT_DIR$/android-app" />
+            <option value="$PROJECT_DIR$/android-app/app" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/android-application" />
+            <option value="$PROJECT_DIR$/build-logic/commons" />
+            <option value="$PROJECT_DIR$/build-logic/java-library" />
+            <option value="$PROJECT_DIR$/build-logic/kotlin-library" />
+            <option value="$PROJECT_DIR$/build-logic/report-aggregation" />
+            <option value="$PROJECT_DIR$/build-logic/spring-boot-application" />
+            <option value="$PROJECT_DIR$/domain-model" />
+            <option value="$PROJECT_DIR$/domain-model/release" />
+            <option value="$PROJECT_DIR$/platforms" />
+            <option value="$PROJECT_DIR$/platforms/plugins-platform" />
+            <option value="$PROJECT_DIR$/platforms/product-platform" />
+            <option value="$PROJECT_DIR$/platforms/test-platform" />
+            <option value="$PROJECT_DIR$/server-application" />
+            <option value="$PROJECT_DIR$/server-application/app" />
+            <option value="$PROJECT_DIR$/state" />
+            <option value="$PROJECT_DIR$/state/application-state" />
+            <option value="$PROJECT_DIR$/user-feature" />
+            <option value="$PROJECT_DIR$/user-feature/data" />
+            <option value="$PROJECT_DIR$/user-feature/table" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
