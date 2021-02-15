@@ -1,18 +1,3 @@
-/.gradle/
-/admin-feature/.gradle/
-/aggregation/.gradle/
-/android-app/.gradle/
-/build-logic/.gradle/
-/build-logic/build/
-/build-logic/commons/build/
-/build-logic/kotlin-library/build/
-/build-logic/report-aggregation/build/
-/build-logic/spring-boot-application/build/
-/build-logic/java-library/build/
-/domain-model/.gradle/
-/platforms/.gradle/
-/server-application/.gradle/
-/state/.gradle/
-/user-feature/.gradle/
-/user-feature/table/build/
-/build-logic/android-application/build/
+### Gradle Patch ###
+**/build/
+**/.gradle
